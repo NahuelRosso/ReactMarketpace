@@ -53,8 +53,8 @@ export const LoginPage: React.FC<{}> = () => {
               <TextField
                 name="password"
                 fullWidth
-                type="Password"
-                label="password"
+                type="password"
+                label="Password"
                 sx={{ mt: 1.5, mb: 1.5 }}
                 required
                 onChange={dataLogin}

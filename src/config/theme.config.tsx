@@ -13,6 +13,8 @@ export enum themPalette {
   //Alert Styles
   ERROR_MAIN = "#f44336",
   BG_ERROR_MAIN = "rgba(244,67,54,0.1)",
+  SUCCESS_MAIN = "66bb6a",
+  BG_SUCCESS_MAIN = "rgba (102,187,106,0.1)"
 }
 
 const theme = createTheme({
@@ -49,6 +51,10 @@ const theme = createTheme({
                 border:`1px solid ${themPalette.ERROR_MAIN}`,
                 background: themPalette.BG_ERROR_MAIN,
             },
+            standardSuccess:{
+              border:`1px solid ${themPalette.SUCCESS_MAIN}`,
+              background: themPalette.BG_SUCCESS_MAIN,
+            }
         }
     },
   },
